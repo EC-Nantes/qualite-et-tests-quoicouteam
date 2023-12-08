@@ -26,5 +26,6 @@ def game() :
         position = int(position)
         plateau[position-1] = i%2+1
         game_over = check_winner(plateau)
-        i = i+1 
-        
+        i = i+1
+    if i == 9 :
+        print("It's a tie")
